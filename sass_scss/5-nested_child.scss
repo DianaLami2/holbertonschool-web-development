@@ -3,11 +3,11 @@ $colorone: #3D3D3D;
 $colortwo: #FF0000;
 
 body {
-  color: #3D3D3D; 
+  color: $colorone; 
 
   .red {
     &:first-child {
-      color: #FF0000; 
+      color: $colortwo; 
     }
   }
 }
