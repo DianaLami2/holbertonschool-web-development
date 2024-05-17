@@ -1,0 +1,8 @@
+/* My style */
+$firstcolor: #3D3D3D;
+$secondcolor: #FF0000;
+
+body {
+  color: $firstcolor }
+  body .red {
+    color: $secondcolor; }
