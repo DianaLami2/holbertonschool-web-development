@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,cAAc;AAMd,yBAAM;EACF,SAAS,EALA,IAAI;;AAQjB,QAAS;EAEL,KAAK,EATI,OAAO;;AAWpB,QAAS;EAEL,KAAK,EAZI,OAAO",
-"sources": ["9-extend_list.scss"],
+"mappings": "AAAA,cAAc;ACAd,cAAc;ADKd,IAAK;EACD,KAAK,ECJH,OAAO;;ADOX,MAAO;EACL,KAAK,ECPD,OAAO;;ADUb,KAAM;EACJ,KAAK,ECVF,OAAO",
+"sources": ["10-import_colors.scss","10-colors.scss"],
 "names": [],
 "file": "output.css"
 }

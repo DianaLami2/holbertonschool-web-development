@@ -1,5 +1,16 @@
 /* My style */
 
-$red: #FF0000;
-$green: #00FF00;
-$blue: #0000FF;
+
+@import "10-colors";
+
+.red {
+    color: $red; 
+}
+  
+  .green {
+    color: $green; 
+}
+  
+  .blue {
+    color: $blue; 
+}
