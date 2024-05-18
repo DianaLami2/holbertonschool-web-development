@@ -1,0 +1,19 @@
+/* My style */
+
+$CustomSize: 12px;
+$TextColor1: #00FF00;
+$TextColor2: #FF0000;
+
+.info {
+    font-size: $CustomSize
+}
+
+.success {
+    @extend .info;
+    color: $TextColor1
+}
+.warning {
+    @extend .info;
+    color: $TextColor2
+}
+

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,cAAc;AAId,IAAK;EACH,KAAK,EAJI,OAAO;;AAKhB,WAAY;EACV,KAAK,EALE,OAAO",
-"sources": ["5-nested_child.scss"],
+"mappings": "AAAA,cAAc;AAMd,yBAAM;EACF,SAAS,EALA,IAAI;;AAQjB,QAAS;EAEL,KAAK,EATI,OAAO;;AAWpB,QAAS;EAEL,KAAK,EAZI,OAAO",
+"sources": ["9-extend_list.scss"],
 "names": [],
 "file": "output.css"
 }

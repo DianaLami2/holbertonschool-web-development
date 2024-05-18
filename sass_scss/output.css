@@ -1,8 +1,11 @@
 /* My style */
-body {
-  color: #3D3D3D; }
+.info, .success, .warning {
+  font-size: 12px; }
 
-body > .red {
+.success {
+  color: #00FF00; }
+
+.warning {
   color: #FF0000; }
 
 /*# sourceMappingURL=output.css.map */
