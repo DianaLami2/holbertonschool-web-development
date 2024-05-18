@@ -5,7 +5,7 @@ $colortwo: #FF0000;
 body {
   color: $colorone; 
   
-  body > .red {
+  > .red {
     &:first-child {
       color: $colortwo; 
     }
