@@ -1,0 +1,13 @@
+/* My style */
+
+$colorA: #FF0000;
+$colorB: #00FF00;
+
+
+button {
+    color: $colorA;
+  
+    &:hover {
+      color: $colorB;
+    }
+  }
