@@ -1,0 +1,16 @@
+/* My style */
+
+$mainfont-size: 14px;
+$h1-font-size: 16px;
+$smallerfont-size: 12px;
+
+body {
+  font-size: $mainfont-size;
+
+  h1 {
+    font-size: $h1-font-size;
+  }
+  .smaller {
+    font-size: $smallerfont-size;
+  }
+}
