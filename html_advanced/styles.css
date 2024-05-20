@@ -1,0 +1,238 @@
+header{
+    background-image: url("Capture!.JPG");
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.paragraph-styles {
+    width: 60%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+
+
+.parent {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.child{
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: transparent;
+    padding: 4%;
+}
+
+.child>h4 {
+    text-align: center;
+}
+
+.child>button {
+    width: 150px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.child>div {
+    position: relative;
+}
+
+.play-button {
+    position: absolute;
+}
+
+.parent_two{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child_two{
+    width: 19%;
+    display: inline-block;
+}
+
+.child_two>img {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 100px;
+}
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tutorials-class{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+}
+
+
+
+
+
+.get-schooled{
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+.top{
+    color: aliceblue;
+}
+
+.dot_1 {
+    background: transparent;
+    top: 120px;
+    left: 15px;
+}
+
+.quote{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -210px;
+    background-color: #c271ff;
+    color: aliceblue;
+    height: 330px;
+}
+
+.avatar{
+    margin-top: -50px;
+    border-radius: 50%;
+    top: 340px;
+    left: 50px;
+    width: 17%;
+    height: 20%;
+
+}
+#tutorials{
+    text-align: center;
+}
+
+.VideoParent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.childv {
+    width: 240px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.membership {
+    background-color: rgb(25, 2, 61);
+    color: white;
+    margin-top: 40px;
+    height: 370px;
+    text-align: center;
+    overflow: hidden;
+}
+.membership h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.childMembership {
+    overflow: hidden;
+    margin: 0 auto;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.membership>button {
+    display: block;
+    margin: 0 auto;
+}
+
+.faq {
+    background-color: white;
+    font-size: 10px;
+}
+
+.faq h1 {
+    text-align: center;
+    color: rgb(40, 30, 30);
+}
+.parent {
+    display: flex;
+}
+
+.child {
+    flex: 1;
+    padding: 0 10px; /* Add spacing between columns */
+}
+
+.child > div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.child > div > div {
+    margin-bottom: 10px; /* Add spacing between h2 and p */
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section img {
+    margin-right: 10px; /* Add space between logo and text */
+}
+
+.right-section img {
+    margin-left: 10px; /* Add space between images */
+}
