@@ -1,13 +1,8 @@
 /* My style */
-$colorone: #3D3D3D;
-$colortwo: #FF0000;
-
 body {
-  color: $colorone; 
+  color: #3D3D3D; 
   
   > .red {
-    &:first-child {
-      color: $colortwo; 
+      color: #FF0000; 
     }
   }
-}

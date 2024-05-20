@@ -1,15 +1,19 @@
 /* My comment */
 
 
-@import "C:\Users\user\Desktop\HOLBERTON\holbertonschool-web-development\sass_scss\10-colors.scss";
+@import '10-color.scss';
+
 
 .red {
-    color: $red; }
+    color: $red; 
+  }
   
   .green {
-    color:$green; }
+    color:$green; 
+  }
   
   .blue {
-    color: $blue; }
+    color: $blue; 
+  }
 
 
